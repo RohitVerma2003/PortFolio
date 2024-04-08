@@ -69,9 +69,7 @@ function sendEmail() {
     let message = document.getElementById("form_message").value;
 
     Email.send({
-        Host: "smtp.elasticemail.com",
-        Username: "rvermajio78300@gmail.com",
-        Password: "CD00E0563E74FF90E511597B7EF1ADEDA4CA",
+        SecureToken: 'b59a7d15-c94f-46bf-a9a4-254f130ce90c',
         To: 'rvermajio78300@gmail.com',
         From: 'rvermajio78300@gmail.com',
         Subject: name,
