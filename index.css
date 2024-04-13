@@ -202,6 +202,7 @@ a{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(150 161 192);
     word-spacing: 6px;
+    text-align: justify;
 }
 
 #section-3 .btn-heading{
@@ -446,7 +447,9 @@ a{
         rotate: 0deg;
     }
 
-    
+    .about-detail{
+        word-spacing: 1px;
+    }
 }
 
 @media screen and (max-width: 550px) {
